@@ -42,13 +42,38 @@ Este proyecto utiliza una FPGA TangNano y está estructurado para facilitar el d
 
 - **Archivo Make (`Makefile`)**  
   Contiene comandos para automatizar etapas como síntesis, implementación, simulación y carga del diseño en la FPGA usando herramientas de código abierto.
-# 1 Inicializar la terminal del toolchain:
+# 2.1 Inicializar la terminal del toolchain:
 
 Primero que todo se debe ubicar el acceso a las herramientas.
 
 Presione en FPGA Toolchain en la parte inferior derecha. Después presione en Open Terminal.
 
 <img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/e1b67806-843e-4a66-8df2-098aff8c9dcb" />
+
+Esto nos permitirá ejecutar comandos personalizados para tener un control completo sobre nuestros diseños digitales. Además, podremos aprovechar los Makefiles como recetas automatizadas que simplifican y agilizan el flujo de trabajo.
+
+Es importante haber iniciado una terminal compatible con OSS-CAD-Suite para utilizar estas herramientas correctamente.
+
+
+<img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/50c848dc-ce6e-4cd7-bcab-6a5d1d51eb1c" />
+
+En esta terminal podremos hacer uso de las herramientas de síntesis, simulación e implementación.
+
+Para comprobarlo ingrese el comando por ejemplo -----> yosys
+
+##  yosys ejecuta la suite para síntesis y desarollo de Yosys.
+
+<img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/f1079ee2-ebeb-4645-93ff-71d34625e124" />
+
+Para salir de la suite de Yosys ingrese el siguiente comando -----> exit
+
+# 2.2 Uso básico de la extensión con recetas:
+
+El conjunto de herramientas incluye una gran variedad de comandos, opciones y banderas. No obstante, cubrir todos estos detalles excede el alcance de este tutorial. Por ello, se ha preparado una plantilla de receta que contiene todo lo necesario para desarrollar cualquier proyecto de forma estructurada.
+
+Dentro de la carpeta `build` de los ejemplos, encontrarás un archivo `Makefile` que reúne los comandos correspondientes a cada etapa del desarrollo. Al crear tus propios proyectos, se recomienda generar un `Makefile` personalizado en tu carpeta `build`, tomando como referencia las plantillas proporcionadas.
+
+Para poner esto en práctica, accede a la carpeta `build` del ejemplo **BlinkyLed**. Puedes hacerlo utilizando el comando `cd`, que permite navegar hacia una ruta relativa desde tu ubicación actual. En este caso, el comando sería:
 
 
 
