@@ -83,10 +83,64 @@ Seguidamente, De la dirección actual (rojo) se sigue la ruta indicada por la di
 
 - Ejecutando este comando en la terminal, esto generará en la carpeta build un archivo .vcd que contiene las señales simuladas en función del tiempo que se marcan en color morado. Además se mostrará en la consola los resultados o tareas del testbench.
 
-- Para visualizar los diagramas de tiempo con GTKwave ------> **Make wv**
-
-
 
 <img width="1067" height="386" alt="image" src="https://github.com/user-attachments/assets/d65d8930-b530-4d2f-ac24-98909aa3404b" />
+
+# 2.3 Para visualizar los diagramas de tiempo con GTKwave ------> **Make wv**
+
+Ejecute este comando en la terminal, esto abrirá una ventana de gtkwave para visualizar las señales en función del tiempo.
+
+<img width="793" height="508" alt="image" src="https://github.com/user-attachments/assets/ed2edd67-6a96-4af6-9f6c-7da7069b6d22" />
+
+
+Haciendo click derecho sobre el elemento **blinky_led_tb**, luego **Recurse Import** y por último **Insert**. Con esto se añadirán las señales.
+
+
+<img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/6fefad90-f260-48d7-935e-4dd842fcaf49" />
+
+
+## 🛠️ Navegación y Comandos de Implementación
+
+Primero, me dirijo a la barra superior de herramientas del entorno. Desde ahí puedo acceder al diagrama de tiempos, que me permite visualizar cómo se comportan las señales a lo largo del tiempo. Esta parte es clave para verificar que las transiciones ocurren en los momentos correctos y que no hay problemas de sincronización.
+
+### ⚙️ Implementación Física: Paso a Paso
+
+Una vez que tengo listo el diseño RTL, comienzo con la implementación física. Aquí te explico cómo lo hago:
+
+1. **Verificación de Sintaxis**  
+   Antes de sintetizar, siempre reviso que el código esté libre de errores. Esto lo hago ejecutando un comando que analiza la sintaxis del RTL. Si hay algún problema, lo corrijo antes de continuar.
+
+2. **Síntesis del Diseño**  
+   Luego paso a la síntesis. En este paso, el código RTL se transforma en una red lógica que puede ser implementada físicamente en la FPGA. Aquí obtengo información sobre el uso de recursos, como LUTs, flip-flops, y bloques de memoria.
+
+3. **Generación del Bitstream**  
+   Una vez sintetizado, genero el archivo de configuración (bitstream) que será cargado en la FPGA. Este archivo contiene toda la lógica que definí en el diseño.
+
+4. **Carga en la FPGA**  
+   Finalmente, utilizo una herramienta de programación para cargar el bitstream en la placa. Una vez cargado, puedo observar el comportamiento real del sistema y compararlo con las simulaciones.
+
+#Utilizando comando ----> make synth
+
+
+<img width="940" height="84" alt="image" src="https://github.com/user-attachments/assets/31db253a-cc67-4412-b6d3-e05f0c78ed92" />
+
+
+
+
+Ejecutando este comando en la terminal, esto generará en la carpeta build un archivo .json con el diseño sintetizado y un logfile con la información del proceso de síntesis. Si existe un error de sintaxis o de diseño, será reportado en este logfile.
+
+
+## Para realizar el place and route del diseño sintetizado en la FPGA
+
+
+
+
+
+
+
+
+
+
+
 
 
