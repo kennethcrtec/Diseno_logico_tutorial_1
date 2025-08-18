@@ -25,3 +25,22 @@ Date --> 12/08/2025
 
 <img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/12cd1074-3f41-4742-9ddb-1c1a1ef8471a" />
 
+# 2 Uso del toolchain para diseño en FPGA
+
+Este proyecto utiliza una FPGA TangNano y está estructurado para facilitar el desarrollo, simulación y carga de diseños digitales. A continuación se describen los tipos de archivos necesarios y la jerarquía recomendada.
+
+## 📁 Tipos de Archivos
+
+- **Archivos de diseño (`.v`, `.sv`)**  
+  Contienen el código RTL que será sintetizado. Representan la lógica del sistema.
+
+- **Archivos de simulación (`.v`, `.sv`)**  
+  Incluyen los testbench para verificar el comportamiento del diseño mediante simulación.
+
+- **Archivo de constraints (`.cst`)**  
+  Define la asignación de señales de entrada/salida del módulo top a los pines físicos de la FPGA TangNano.
+
+- **Archivo Make (`Makefile`)**  
+  Contiene comandos para automatizar etapas como síntesis, implementación, simulación y carga del diseño en la FPGA usando herramientas de código abierto.
+
+## 📂 Estructura Recomendada de Carpetas
