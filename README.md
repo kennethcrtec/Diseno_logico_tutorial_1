@@ -75,5 +75,18 @@ Dentro de la carpeta `build` de los ejemplos, encontrarás un archivo `Makefile`
 
 Para poner esto en práctica, accede a la carpeta `build` del ejemplo **BlinkyLed**. Puedes hacerlo utilizando el comando `cd`, que permite navegar hacia una ruta relativa desde tu ubicación actual. En este caso, el comando sería:
 
+Seguidamente, De la dirección actual (rojo) se sigue la ruta indicada por la dirección al destino (verde)
+
+- Para la verificación de los diseños y simulación tenemos los siguientes comandos:
+
+- Para ejecutar el testbench y simular el diseño------> **Make test**
+
+- Ejecutando este comando en la terminal, esto generará en la carpeta build un archivo .vcd que contiene las señales simuladas en función del tiempo. Además se mostrará en la consola los resultados o tareas del testbench.
+
+- Para visualizar los diagramas de tiempo con GTKwave ------> **Make wv**
+
+
+
+<img width="1067" height="386" alt="image" src="https://github.com/user-attachments/assets/d65d8930-b530-4d2f-ac24-98909aa3404b" />
 
 
