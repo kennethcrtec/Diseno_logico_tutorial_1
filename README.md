@@ -29,7 +29,7 @@ Date --> 12/08/2025
 
 Este proyecto utiliza una FPGA TangNano y está estructurado para facilitar el desarrollo, simulación y carga de diseños digitales. A continuación se describen los tipos de archivos necesarios y la jerarquía recomendada.
 
-## 📁 Tipos de Archivos
+# 📁 Tipos de Archivos
 
 - **Archivos de diseño (`.v`, `.sv`)**  
   Contienen el código RTL que será sintetizado. Representan la lógica del sistema.
@@ -42,5 +42,13 @@ Este proyecto utiliza una FPGA TangNano y está estructurado para facilitar el d
 
 - **Archivo Make (`Makefile`)**  
   Contiene comandos para automatizar etapas como síntesis, implementación, simulación y carga del diseño en la FPGA usando herramientas de código abierto.
+# 1 Inicializar la terminal del toolchain:
 
-## 📂 Estructura Recomendada de Carpetas
+Primero que todo se debe ubicar el acceso a las herramientas.
+
+Presione en FPGA Toolchain en la parte inferior derecha. Después presione en Open Terminal.
+
+<img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/e1b67806-843e-4a66-8df2-098aff8c9dcb" />
+
+
+
