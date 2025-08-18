@@ -79,9 +79,9 @@ Seguidamente, De la dirección actual (rojo) se sigue la ruta indicada por la di
 
 - Para la verificación de los diseños y simulación tenemos los siguientes comandos:
 
-- Para ejecutar el testbench y simular el diseño------> **Make test**
+- Para ejecutar el testbench y simular el diseño, señalado en color morado------> **Make test** 
 
-- Ejecutando este comando en la terminal, esto generará en la carpeta build un archivo .vcd que contiene las señales simuladas en función del tiempo. Además se mostrará en la consola los resultados o tareas del testbench.
+- Ejecutando este comando en la terminal, esto generará en la carpeta build un archivo .vcd que contiene las señales simuladas en función del tiempo que se marcan en color morado. Además se mostrará en la consola los resultados o tareas del testbench.
 
 - Para visualizar los diagramas de tiempo con GTKwave ------> **Make wv**
 
