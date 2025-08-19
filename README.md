@@ -144,6 +144,9 @@ Ejecutando este comando en la terminal, esto generará en la carpeta build un ar
 ademas seguidamente se ejecuta el codigo en la fpga, en donde es importante configurar el zading para poder habilitar de FPGA
 
 
+#  Finalmente se consigue ejecutar el programa en la FPGA
+
+<img width="628" height="591" alt="image" src="https://github.com/user-attachments/assets/68c914ba-b63f-4cab-8f3b-2dfbcf029b08" />
 
 
 
