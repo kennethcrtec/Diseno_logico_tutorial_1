@@ -1,7 +1,9 @@
 # Diseno_logico_tutorial_1
 Kenneth Aaron Campos Rodríguez
 carnet---> 2021023141
-Herramientos de codigo abierto para diseño digital utilizando fpga
+
+
+"Herramientos de codigo abierto para diseño digital utilizando fpga"
 
 ---semana 2---
 
