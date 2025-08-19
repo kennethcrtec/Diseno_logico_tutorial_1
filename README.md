@@ -133,9 +133,15 @@ Ejecutando este comando en la terminal, esto generará en la carpeta build un ar
 ## Para realizar el place and route del diseño sintetizado en la FPGA
 
 
+<img width="1038" height="128" alt="image" src="https://github.com/user-attachments/assets/9ee4ccf4-a803-4a1a-b26b-b179243151d8" />
 
+<img width="1029" height="128" alt="image" src="https://github.com/user-attachments/assets/ba4d45a3-66f5-4585-98ff-87584fdd2418" />
 
+# 2.4 Se carga el programa y se ejecutan todas las recetas en la FPGA
 
+<img width="1023" height="186" alt="image" src="https://github.com/user-attachments/assets/5bfde3a4-1060-4c42-93b5-e35fbb9a776a" />
+
+ademas seguidamente se ejecuta el codigo en la fpga, en donde es importante configurar el zading para poder habilitar de FPGA
 
 
 
