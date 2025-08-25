@@ -175,8 +175,8 @@ También se pudo observar el uso del **log file.**
 
 
 
+<img width="1088" height="772" alt="image" src="https://github.com/user-attachments/assets/bdbfb88e-ee3e-47e7-80dd-4f3e9c1e0bcd" />
 
-<img width="512" height="393" alt="image" src="https://github.com/user-attachments/assets/65ca6494-8470-4961-9343-d1c42e76de0d" />
 
 
 
@@ -189,7 +189,7 @@ El cual brinda información útil para la hora de realizar reportes, en síntesi
 En donde también nos ejecuto de manera correcta el programa. A su vez generándonos un nuevo archivo log pero para el pnr en donde los brinda útil información sobre la compilación del código✅
 
 
-<img width="552" height="404" alt="image" src="https://github.com/user-attachments/assets/7519b28b-8a2c-4dca-b8fd-dd954c9780c7" />
+<img width="1029" height="783" alt="image" src="https://github.com/user-attachments/assets/693e4616-c8b7-4fae-be7e-7eb87f23d578" />
 
 
 
@@ -201,8 +201,8 @@ En donde nos copilo de manera satisfactoria generándonos un archivo  .vcd ✅
 
 
 
+<img width="911" height="667" alt="image" src="https://github.com/user-attachments/assets/bd4663b6-25e8-4fd6-ab34-b6ca504d8ad2" />
 
-<img width="552" height="404" alt="image" src="https://github.com/user-attachments/assets/0a0233ba-82fc-4aae-89d7-ca1fa4087574" />
 
 
 
