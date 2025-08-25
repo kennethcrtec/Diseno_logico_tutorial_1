@@ -157,14 +157,20 @@ ademas seguidamente se ejecuta el codigo en la fpga, en donde es importante conf
 
 <img width="1056" height="622" alt="image" src="https://github.com/user-attachments/assets/6b6a2944-a39e-4562-bfa5-218fe2ebf905" />
 
+
 Se modificas los constrains respecto a los pines de salida la FPGA ademas es importante verificas el esquematico de la fpga para saber cuales seras las salidas y entradas.
 
 ## En la sección 3 que trata de la modificación del código y su interpretación 
 
 Ejecutando el comando **make synth** ✅
+
+
 <img width="680" height="480" alt="image" src="https://github.com/user-attachments/assets/ef1afd66-e77a-4f2f-ae1d-b28164c23f7f" />
 
+
 También se pudo observar el uso del **log file.**
+
+
 
 
 <img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/8f52335a-6e88-4ca6-a9e8-08ddb6056363" />
