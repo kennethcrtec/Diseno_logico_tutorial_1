@@ -148,6 +148,7 @@ ademas seguidamente se ejecuta el codigo en la fpga, en donde es importante conf
 
 #  Finalmente se consigue ejecutar el programa en la FPGA
 
+
 <img width="628" height="591" alt="image" src="https://github.com/user-attachments/assets/68c914ba-b63f-4cab-8f3b-2dfbcf029b08" />
 
 
@@ -174,6 +175,8 @@ También se pudo observar el uso del **log file.**
 
 
 <img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/8f52335a-6e88-4ca6-a9e8-08ddb6056363" />
+
+
 El cual brinda información útil para la hora de realizar reportes, en síntesis y uso de memoria.
 
 
