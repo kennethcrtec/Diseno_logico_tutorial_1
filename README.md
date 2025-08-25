@@ -166,7 +166,9 @@ Se modificas los constrains respecto a los pines de salida la FPGA ademas es imp
 Ejecutando el comando **make synth** ✅
 
 
-<img width="680" height="480" alt="image" src="https://github.com/user-attachments/assets/ef1afd66-e77a-4f2f-ae1d-b28164c23f7f" />
+<img width="553" height="115" alt="image" src="https://github.com/user-attachments/assets/58c68354-3e74-4b0a-aa5c-bb9bdfb7734c" />
+
+
 
 
 También se pudo observar el uso del **log file.**
@@ -174,7 +176,8 @@ También se pudo observar el uso del **log file.**
 
 
 
-<img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/8f52335a-6e88-4ca6-a9e8-08ddb6056363" />
+<img width="512" height="393" alt="image" src="https://github.com/user-attachments/assets/65ca6494-8470-4961-9343-d1c42e76de0d" />
+
 
 
 El cual brinda información útil para la hora de realizar reportes, en síntesis y uso de memoria.
@@ -186,7 +189,8 @@ El cual brinda información útil para la hora de realizar reportes, en síntesi
 En donde también nos ejecuto de manera correcta el programa. A su vez generándonos un nuevo archivo log pero para el pnr en donde los brinda útil información sobre la compilación del código✅
 
 
-<img width="680" height="480" alt="image" src="https://github.com/user-attachments/assets/c5d9214d-a8a0-408a-ba2f-0700ed45dcfb" />
+<img width="552" height="404" alt="image" src="https://github.com/user-attachments/assets/7519b28b-8a2c-4dca-b8fd-dd954c9780c7" />
+
 
 
 Ejecutando **make test**
@@ -205,18 +209,21 @@ En donde nos copilo de manera satisfactoria generándonos un archivo  .vcd ✅
 ##Seguidamente ejecutamos el comando **make wv**
 
 
-<img width="680" height="480" alt="image" src="https://github.com/user-attachments/assets/d32360ae-e441-43d4-848e-5f75595e177b" />
+<img width="548" height="415" alt="image" src="https://github.com/user-attachments/assets/714e0483-bcb4-4f09-add6-13b660cddfc1" />
+
 
 
 Una vez que hayamos verificado que nuestro proyecto funciona como queremos ejecutamos el comando *make bitstream* ✅
 
 
-<img width="921" height="146" alt="image" src="https://github.com/user-attachments/assets/028f6508-a775-4aa2-b65b-9fdc538a4f8d" />
+<img width="921" height="146" alt="image" src="https://github.com/user-attachments/assets/0c724738-babc-41f8-8cd7-8a9ed26fe97d" />
+
 
 Finalmente cargamos el make load, para cargar nuestro proyecto en la **FPGA** y poder visualizar en sus leds el progreso de contador de bit.
 
 
-<img width="870" height="480" alt="image" src="https://github.com/user-attachments/assets/c967e505-672a-4dab-9f0f-1c8bdba79863" />
+<img width="870" height="403" alt="image" src="https://github.com/user-attachments/assets/0eafb920-f2db-4942-b0ee-599db32c54a4" />
+
 
 
 Seguidamente se muestra un el link de un video **YouTube** para mostrar el funcionamiento.
