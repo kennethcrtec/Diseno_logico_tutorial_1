@@ -152,6 +152,96 @@ ademas seguidamente se ejecuta el codigo en la fpga, en donde es importante conf
 
 
 
+#  En esta seccion se procede a seguir con el tutorial, donde se modifica el codigo, se enseña a crear archivos .sv y .cvs como modificar el con cosntrains
+
+
+<img width="1056" height="622" alt="image" src="https://github.com/user-attachments/assets/6b6a2944-a39e-4562-bfa5-218fe2ebf905" />
+
+Se modificas los constrains respecto a los pines de salida la FPGA ademas es importante verificas el esquematico de la fpga para saber cuales seras las salidas y entradas.
+
+## En la sección 3 que trata de la modificación del código y su interpretación 
+
+Ejecutando el comando **make synth** ✅
+<img width="680" height="480" alt="image" src="https://github.com/user-attachments/assets/ef1afd66-e77a-4f2f-ae1d-b28164c23f7f" />
+
+También se pudo observar el uso del **log file.**
+
+
+<img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/8f52335a-6e88-4ca6-a9e8-08ddb6056363" />
+El cual brinda información útil para la hora de realizar reportes, en síntesis y uso de memoria.
+
+
+
+#Se ejecuto el comando **make pnr**
+
+En donde también nos ejecuto de manera correcta el programa. A su vez generándonos un nuevo archivo log pero para el pnr en donde los brinda útil información sobre la compilación del código✅
+
+
+<img width="680" height="480" alt="image" src="https://github.com/user-attachments/assets/c5d9214d-a8a0-408a-ba2f-0700ed45dcfb" />
+
+
+Ejecutando **make test**
+
+
+
+En donde nos copilo de manera satisfactoria generándonos un archivo  .vcd ✅
+
+
+
+
+<img width="552" height="404" alt="image" src="https://github.com/user-attachments/assets/0a0233ba-82fc-4aae-89d7-ca1fa4087574" />
+
+
+
+##Seguidamente ejecutamos el comando **make wv**
+
+
+<img width="680" height="480" alt="image" src="https://github.com/user-attachments/assets/d32360ae-e441-43d4-848e-5f75595e177b" />
+
+
+Una vez que hayamos verificado que nuestro proyecto funciona como queremos ejecutamos el comando *make bitstream* ✅
+
+
+<img width="921" height="146" alt="image" src="https://github.com/user-attachments/assets/028f6508-a775-4aa2-b65b-9fdc538a4f8d" />
+
+Finalmente cargamos el make load, para cargar nuestro proyecto en la **FPGA** y poder visualizar en sus leds el progreso de contador de bit.
+
+
+<img width="870" height="480" alt="image" src="https://github.com/user-attachments/assets/c967e505-672a-4dab-9f0f-1c8bdba79863" />
+
+
+Seguidamente se muestra un el link de un video **YouTube** para mostrar el funcionamiento.
+
+link del video *-------------->**  *https://youtu.be/nIFlyTUpMRs*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
